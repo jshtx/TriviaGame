@@ -6,6 +6,15 @@
 
     <meta charset="UTF-8">
     <title>Trivia</title>
+  <!--link to my css stylesheet-->
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+  <!-- Added a link to Bootstrap-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link href='https://fonts.googleapis.com/css?family=Ultra' rel='stylesheet' type='text/css'>
+
+  <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
 
   </head>
 
@@ -13,23 +22,23 @@
 
     <div class="wrapper">
       <div class="header col-lg-12">
-        <h1>U.S. President Trivia</h1>
+        <p>U.S. Presidential Trivia</p>
       </div>
     
       <!--div where time remaining is displayed-->
       <div class="timeRemaining col-lg-12">
-        <h2>Time Remaining: </h2>
+        <h2></h2>
       </div>
       
       <!--where start game button is displayed-->
         <div class="start">
-          <button class="start">Start</button>
+          <button type="button" class=" start btn btn-primary btn-lg">Start</button>
         </div>
 
       <!--div where question and answer are displayed-->
       <div class="questionAndAnswer">
 
-        <div class=winOrLose></div>
+        <div class="winOrLose"></div>
 
        <!--div where question is displayed--> 
         <div class="question col-lg-12">
@@ -58,10 +67,11 @@
 
       </div>
     
-
-
+   
 
     </div>
+
+    
 
     <!-- jQuery -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>

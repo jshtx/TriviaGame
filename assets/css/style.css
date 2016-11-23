@@ -1,0 +1,60 @@
+body {
+	background-image: url("../images/backgroundFlag.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+.header {
+	font-family: 'Ultra', serif;
+	color: #B31F2E;
+	font-size: 50px;
+}
+
+.timeRemaining{
+	font-family: 'Sigmar One', cursive;
+	font-size: 30px;
+	text-decoration: bold;
+	color: #33CD0D;
+}
+
+.questionAndAnswer {
+	width: 50%;
+	margin:0 auto 0 auto;
+}
+
+.question {
+	display: none;
+	margin-top: 10px;
+	font-size: 25px;
+	margin: 0 auto 0 auto;
+	border: 2px solid #B31F2E;
+	color: #1D2D7C;
+	background-color: white;
+	font-family: 'Ultra', serif;
+}
+
+.list {
+	display: none;
+	margin-top: 10px;
+	font-size: 20px;
+	border: 2px solid #B31F2E;
+	background-color: white;
+	color: #1D2D7C;
+	font-family: 'Ultra', serif;
+
+}
+
+.list:hover {
+	background-color: #1D2D7C;
+	color: white;
+	
+}
+
+.winOrLose {
+	margin-top: 10px;
+	font-size: 25px;
+	color: #1D2D7C;
+	font-family: 'Ultra', serif;
+	background-color: white;
+}
+
