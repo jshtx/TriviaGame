@@ -155,7 +155,7 @@ function askQuestions() {
 
     $ (".list").show();
     $ (".question").show();
-    $ (".timeRemaining").hide();  
+    $ (".timeRemaining").show();  
 
     if (questionCounter <= 10){
     
